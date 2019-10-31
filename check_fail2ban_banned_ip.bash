@@ -1,6 +1,6 @@
 #!/bin/bash
 ########################################################################################
-# Nagios plugins is developed by : Hamdy Abou El Anein hamdy.aea@protonmail.com        #
+# This Nagios plugins is developed by : Hamdy Abou El Anein hamdy.aea@protonmail.com        #
 # It check if fail2ban have an active ip banned and if yes it show the ip              #
 # In the script I use warning state only critical                                      #
 # Version 1.1                                                                          #
