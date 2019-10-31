@@ -19,11 +19,11 @@ function f_cri {
     echo "CRITICAL: "${1}
     exit 2
 }
- # Function warning                                                                                                                  
-function f_war {                                                                                                                     
-     echo "WARNING:"${1}                                                                                                            
-     exit 1         
-}     
+# Function warning
+function f_war {
+    echo "WARNING:"${1}
+    exit 1
+}
 # Function unknown
 function f_unk {
     echo "UNKNOWN: "${1}
@@ -31,7 +31,7 @@ function f_unk {
 }
 # Function fail2banipbanned
 function fail2banipbanned {
-# Check if an ip adress is banned or no.
+    # Check if an ip adress is banned or no.
     if [ ${result} = 1 ]; then
         f_cri "The ip $bannedip is banned"
     fi
